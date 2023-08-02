@@ -1,6 +1,6 @@
-package ArraysDemo;
+package ArraysDemo.singleDimentional;
 
-public class IntArrayDemo2 {
+public class IntArrayDemo {
 
     public static void main(String[] args) {
 
@@ -11,14 +11,11 @@ public class IntArrayDemo2 {
         a[2] = 9;
         a[3] = 21;
         a[4] = 72;
-
-        /*for (int i =0; i<5 ; i++)
+        /*System.out.println(a[1]);
+        System.out.println(a[2]);*/
+        for (int i =0; i<5 ; i++)
         {
             System.out.println(a[i]);
-        }*/
-        for(int x:a) // for each loop
-        {
-            System.out.println(x);
         }
 
     }

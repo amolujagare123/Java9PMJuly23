@@ -1,4 +1,4 @@
-package ArraysDemo;
+package ArraysDemo.singleDimentional;
 
 public class StringArrayAnotherMethod {
 
