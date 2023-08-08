@@ -8,6 +8,11 @@ public class EndsWithDemo {
 
         System.out.println( str.endsWith("text") );
 
-        //  check
+        System.out.println( str.startsWith("this") );
+        System.out.println( str.startsWith("amo") );
+        System.out.println( str.contains("is") );
+        System.out.println( str.contains("man") );
+
+
     }
 }
