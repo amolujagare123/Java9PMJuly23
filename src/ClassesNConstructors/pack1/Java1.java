@@ -4,8 +4,9 @@ public class Java1 {
 
     public int a;
     private double d;
-    public char c;
-    String str;
+     char c;
+
+    protected String str;
 
 
     void display()
