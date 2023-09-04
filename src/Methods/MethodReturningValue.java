@@ -107,9 +107,11 @@ public class MethodReturningValue {
         System.out.println(ob.convertStringToDate("12/04/2023"));
 
 
-        MyClassDemoArgument myClassDemoArgument = new MyClassDemoArgument();
+       // MyClassDemoArgument myClassDemoArgument = new MyClassDemoArgument();
 
-        myClassDemoArgument = ob.setMyNewObject();
+     //   myClassDemoArgument = ob.setMyNewObject();
+
+        MyClassDemoArgument  myClassDemoArgument = ob.setMyNewObject();
 
         myClassDemoArgument.display();
 
